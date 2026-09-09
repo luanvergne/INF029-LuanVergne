@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 #include "aluno.h"
-
+#include "professor.h"
+#include "disciplina.h"
 
 int main(void) {
 
