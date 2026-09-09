@@ -1,4 +1,3 @@
-```c
 #ifndef ALUNO_H
 #define ALUNO_H
 
@@ -24,4 +23,3 @@ int excluirAluno(Aluno lista_aluno[], int qtdAluno);
 int menuAluno(Aluno lista_aluno[], int qtdAluno);
 
 #endif
-```
