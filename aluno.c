@@ -1,5 +1,5 @@
-```c
 #include <stdio.h>
+
 #include "aluno.h"
 
 
@@ -203,4 +203,3 @@ int menuAluno(Aluno lista_aluno[], int qtdAluno) {
 
     return qtdAluno;
 }
-```
