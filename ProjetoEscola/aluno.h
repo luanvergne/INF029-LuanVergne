@@ -1,25 +1,19 @@
 #ifndef ALUNO_H
 #define ALUNO_H
+#include "pessoa.h"
 
 #define TAM_ALUNO 3
 
-typedef struct alu {
-    int matricula;
-    char sexo;
-    int ativo;
+typedef struct {
+    int matricula; Pessoa pessoa; int ativo;
 } Aluno;
 
+Aluno cadastrarAluno();
+Aluno atualizarAluno(Aluno aluno);
 
-/* Funções do módulo Aluno */
+int excluirAluno(Aluno listaAluno[], int qtdAluno);
+int menuAluno(Aluno listaAluno[], int qtdAluno);
 
-int cadastrarAluno(Aluno lista_aluno[], int qtdAluno);
-
-void listarAlunos(Aluno lista_aluno[], int qtdAluno);
-
-void atualizarAluno(Aluno lista_aluno[], int qtdAluno);
-
-int excluirAluno(Aluno lista_aluno[], int qtdAluno);
-
-int menuAluno(Aluno lista_aluno[], int qtdAluno);
+void listarAluno(Aluno listaAluno[], int qtdAluno);
 
 #endif
