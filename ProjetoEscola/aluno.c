@@ -56,7 +56,7 @@ void listarAlunos(Aluno lista_aluno[], int qtdAluno) {
 
 void atualizarAluno(Aluno lista_aluno[], int qtdAluno) {
 
-    printf("-- Atualizar Aluno --\n");
+    printf("-- Atualizar Aluno --");
 
     int matricula;
     int achou = 0;
@@ -105,7 +105,7 @@ void atualizarAluno(Aluno lista_aluno[], int qtdAluno) {
 
 int excluirAluno(Aluno lista_aluno[], int qtdAluno) {
 
-    printf("-- Excluir Aluno --\n");
+    printf("-- Excluir Aluno --");
 
     int matricula;
     int achou = 0;
@@ -143,10 +143,8 @@ int excluirAluno(Aluno lista_aluno[], int qtdAluno) {
     else {
         printf("Matrícula inexistente!\n");
     }
-
     return qtdAluno;
 }
-
 
 int menuAluno(Aluno lista_aluno[], int qtdAluno) {
 
