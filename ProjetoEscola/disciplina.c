@@ -205,4 +205,3 @@ int menuDisciplina
 
     return qtdDisciplina;
 }
-```
