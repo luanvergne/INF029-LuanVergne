@@ -1,5 +1,7 @@
 #ifndef PROFESSOR_H
 #define PROFESSOR_H
+#include "pessoa.h"
+
 #define TAM_PROFESSOR 50
 
 typedef struct {
@@ -18,4 +20,3 @@ int menuProfessor(Professor listaProfessor[], int qtdProfessor);
 void listarProfessor(Professor listaProfessor[], int qtdProfessor);
 
 #endif
-```
