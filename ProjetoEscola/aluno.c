@@ -5,7 +5,7 @@
 
 int cadastrarAluno(Aluno lista_aluno[], int qtdAluno) {
 
-    printf("-- Cadastrar Aluno --\n");
+    printf("-- Cadastrar Aluno --");
 
     if (qtdAluno == TAM_ALUNO) {
         printf("Lista de alunos cheia!\n");
