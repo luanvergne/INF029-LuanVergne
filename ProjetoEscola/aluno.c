@@ -125,10 +125,6 @@ int excluirAluno(Aluno lista_aluno[], int qtdAluno) {
             lista_aluno[i].ativo
         ) {
 
-            /*
-             * Move os alunos seguintes uma posição
-             * para ocupar o lugar do aluno excluído.
-             */
             for (int j = i; j < qtdAluno - 1; j++) {
                 lista_aluno[j] = lista_aluno[j + 1];
             }
