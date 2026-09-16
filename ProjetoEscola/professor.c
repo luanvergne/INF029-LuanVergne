@@ -176,4 +176,3 @@ int menuProfessor(
 
     return qtdProfessor;
 }
-```
