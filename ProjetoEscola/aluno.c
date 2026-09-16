@@ -156,7 +156,7 @@ int menuAluno(Aluno lista_aluno[], int qtdAluno) {
     while (!sairAluno) {
 
         printf("\n");
-        printf("======== Módulo Aluno ========\n\n");
+        printf("======== Módulo Aluno ========");
 
         printf("0 - Sair\n");
         printf("1 - Cadastrar Aluno\n");
